@@ -126,9 +126,7 @@ footer {
     border: 2px dotted darkorange;
     
 }
-footer:hover{
-    border: 5px dotted darkorange;
-}
+
 .address a:hover{
     color: darkorange;
 
@@ -136,4 +134,23 @@ footer:hover{
 .address a{
     text-decoration: none;
     color: blueviolet;
+}
+.button:hover{
+    background-color: yellow;
+
+}
+.nav-link:hover{
+    color: yellow;
+}
+.post:hover{
+    background-color: lightblue;
+    color:white;
+
+}
+.post:hover .article-but{
+    background-color: thistle;
+    color: black;
+}
+.address a:visited{
+    color: lightslategray;
 }
